@@ -24,3 +24,12 @@ app.get("/api/users", (req, res) => {
     const phrase = `<h3>It was ${temperature} today</h3>`;
     res.status(200).send(phrase);
   });
+
+//   app.get("/name/:address", (req,res) => {
+//     const { address } = req.params;
+//     const phrase = `Address: ${address}`;
+//     res.send(phrase);
+//   });
+
+
+  
